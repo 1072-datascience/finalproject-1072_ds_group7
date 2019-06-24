@@ -26,7 +26,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 ### data
 
-* Source: AI Cup 比賽網站(https://aidea-web.tw/topic/d0cec130-b15d-4c4c-b7e8-bf95a0c34dd8)
+* Source: AI Cup 比賽網站 ( https://aidea-web.tw/topic/d0cec130-b15d-4c4c-b7e8-bf95a0c34dd8 )
 * Input format: .tsv
 * Preprocessing:
   * Natural Language ToolKit
@@ -35,16 +35,20 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 ### code
 
-* Method do you use: SVM
-* Null model for comparison: Random Forests
-* Perform evaluation: Cross-validation
+* Method do you use:
+    * word2vec, SVM
+* Null model for comparison:
+    * Random Forests
+* Perform evaluation:
+    * Cross-validation
 
 ### results
 
-* Which metric do you use: precision
+* Which metric do you use:
+    * precision
 * Is your improvement significant? : )
 * What is the challenge part of your project? 
-   將sentence數據化並可以被歸類、建模真的好難orz
+   * 將sentence數據化並可以被歸類、建模真的好難orz
 
 ## Reference
 * Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
