@@ -29,7 +29,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 * Source: AI Cup 比賽網站 ( https://aidea-web.tw/topic/d0cec130-b15d-4c4c-b7e8-bf95a0c34dd8 )
 * Input format: .tsv
-    ![input format](picture/input_format.PNG)
+    ![input format](/picture/input_format.png)
     
 * Preprocessing:
   * Natural Language ToolKit - 把sentence進行分句, 分詞
