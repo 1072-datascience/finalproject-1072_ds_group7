@@ -29,6 +29,8 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 * Source: AI Cup 比賽網站 ( https://aidea-web.tw/topic/d0cec130-b15d-4c4c-b7e8-bf95a0c34dd8 )
 * Input format: .tsv
+    ![input format](picture/input_format.PNG)
+    
 * Preprocessing:
   * Natural Language ToolKit - 把sentence進行分句, 分詞
   * 針對 Gene.Gene_ID 及 Gene_Index.start.end Separate “ | ”, 使兩行資料各自分開顯示其name, ID, Start, End, Length 
@@ -63,6 +65,10 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
       * https://medium.com/jameslearningnote/%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90-%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E7%AC%AC3-4%E8%AC%9B-%E6%94%AF%E6%8F%B4%E5%90%91%E9%87%8F%E6%A9%9F-support-vector-machine-%E4%BB%8B%E7%B4%B9-9c6c6925856b
 
 * Packages you use
+    * nltk
+    * keras
+    * word2vec
+    * sklearn
     
 * Related publications
    * Adrian Colyer, 21 APRIL 2016 , accessed 24 June 2019
