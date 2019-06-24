@@ -1,4 +1,4 @@
-# < Title of your final project >
+# <AI Cup 生醫論文自動分析-生醫關聯擷取 >
 
 ### Groups
 * < 賴彥儒, 105701027 >
@@ -7,7 +7,7 @@
 * < 黃郁軒, 106703049 >
 
 ### Goal
-A breif introduction about your project, i.e., what is your goal?
+根據文獻內容判斷兩個指定基因間的關係為哪一種類型
 
 ### Demo 
 You should provide an example commend to reproduce your result
@@ -26,15 +26,15 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 ### data
 
-* Source
+* Source: AI Cup 比賽網站(https://aidea-web.tw/topic/d0cec130-b15d-4c4c-b7e8-bf95a0c34dd8)
 * Input format
 * Any preprocessing?
-  * Handle missing data
+  * Handle missing data 
   * Scale value
 
 ### code
 
-* Which method do you use?
+* Which method do you use? 
 * What is a null model for comparison?
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
 
