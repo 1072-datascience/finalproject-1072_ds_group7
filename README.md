@@ -29,6 +29,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * Source: AI Cup 比賽網站 ( https://aidea-web.tw/topic/d0cec130-b15d-4c4c-b7e8-bf95a0c34dd8 )
 * Input format: .tsv
 * Preprocessing:
+  * 因為本身的資料中，有許多重複的語句，所以先篩選出不同的語句，再建立資料庫
   * Natural Language ToolKit
   * 針對 Gene.Gene_ID 及 Gene_Index.start.end Separate “ | ”, 使兩行資料各自分開顯示其name, ID, Start, End, Length 
 
